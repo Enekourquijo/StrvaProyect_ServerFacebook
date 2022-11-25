@@ -40,6 +40,7 @@ public class EchoService extends Thread {
 				tcpSocket.close();
 			} catch (Exception e) {
 				System.out.println("   # EchoService error:" + e.getMessage());
+				System.out.println("vnrjvnrn");
 			}
 		}
 	}
