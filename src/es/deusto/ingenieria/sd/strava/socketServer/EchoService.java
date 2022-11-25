@@ -44,6 +44,4 @@ public class EchoService extends Thread {
 			}
 		}
 	}
-	
-	//AAAAAAA
 }
