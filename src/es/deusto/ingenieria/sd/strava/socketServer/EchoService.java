@@ -22,7 +22,8 @@ public class EchoService extends Thread {
 			this.out = new DataOutputStream(socket.getOutputStream());
 			this.start();
 			mapa = new HashMap<>();
-			mapa.put("1@gmail.com", "12345");
+			//mapa.put("1@gmail.com", "12345");
+			mapa.put("2@gmail.com", "12445");
 		} catch (Exception e) {
 			System.out.println("# EchoService - TCPConnection IO error:" + e.getMessage());
 		}
